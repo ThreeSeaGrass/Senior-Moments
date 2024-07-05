@@ -1,0 +1,5 @@
+In Next JS 14, why does a page named About.tsx present a 404 when in a top-level 'About' directory? Page
+
+There are 10,000 git changes that are not related to my app setup. What happened?! .git directory mistakenly setup in root
+
+Something is wrong, you suspect, with git remote url addresses. What command can you run to inspect? git remote -v
