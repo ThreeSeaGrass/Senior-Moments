@@ -3,3 +3,8 @@ In Next JS 14, why does a page named About.tsx present a 404 when in a top-level
 There are 10,000 git changes that are not related to my app setup. What happened?! .git directory mistakenly setup in root
 
 Something is wrong, you suspect, with git remote url addresses. What command can you run to inspect? git remote -v
+
+Getting 403 when trying to git push - add username in git config (in hidden .git dir) after 'https' and before 'github.com' e.g. https://ThreeSeaGrass@github.com/ThreeSeaGrass/Senior-Moments.git
+This will make the signin window appear.
+
+Getting refspec errors when trying any git related remote activities. Is repo private??
