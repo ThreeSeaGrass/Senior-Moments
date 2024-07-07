@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const plugin = require('tailwindcss/plugin')
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,6 +17,10 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
-};
+  plugins: [
+    plugin(function ({ addVariant }) {
+        addVariant('child', '& > *');
+        addVariant('child-hover', '& > *:hover');
+    })
+],};
 export default config;
